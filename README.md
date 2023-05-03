@@ -1,4 +1,4 @@
-# Buat database dengan ketentuan
+# Buat database dengan ketentuan :
 
 ```
   Nama Database = tugasdb
