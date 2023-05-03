@@ -1,0 +1,55 @@
+body {
+  background-color: #6bdd54;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container-login, .container-regist{
+  width: 30em;
+  height: 25em;
+  background-color: white;
+  box-shadow: 0 0 30px #00000077;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.container-regist {
+  height: 32em;
+}
+h1 {
+  font-family: sans-serif;
+}
+input {
+  height: 3.5em;
+  width: 25em;
+  background-color: #e2e1e1;
+  border: none;
+  text-indent: 15px;
+  font-family: sans-serif;
+}
+button {
+  width: 25em;
+  height: 3.5em;
+  border: none;
+  background: #50c239;
+  color: white;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+button:hover {
+  background: #399627;
+  transition: 0.3s;
+}
+label, a {
+  font: 13px sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #399627;
+}
+a:hover {
+  text-decoration: underline;
+}

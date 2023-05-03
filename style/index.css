@@ -1,0 +1,42 @@
+body {
+  background-color: #6bdd54;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container{
+  width: 50em;
+  height: 30em;
+  background-color: white;
+  box-shadow: 0 0 30px #00000077;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  position: relative;
+}
+.welcome {
+  font: 20px sans-serif;
+}
+h1 {
+  font-family: sans-serif;
+  color: #5ac944;
+}
+a button {
+  position: absolute;
+  bottom: 2em;
+  right: 2em;
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 5em;
+  height: 2.5em;
+}
+a button:hover {
+  background-color: rgb(197, 4, 4);
+  transition: 0.2s;
+}
